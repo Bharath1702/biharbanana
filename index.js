@@ -12,7 +12,7 @@ const mytoken = process.env.MYTOKEN;
 let userSessions = {};
 
 // Start server
-app.listen(process.env.PORT || 80, () => {
+app.listen(process.env.PORT || 3000, () => {
     console.log("Webhook is listening");
 });
 
